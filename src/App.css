@@ -1,38 +1,39 @@
-.App {
+.cardChannel {
   text-align: center;
+  height: 30rem;
+  background-color: white;
+  border-radius: 30px;
+  box-shadow: 10px 10px #90A4AE;
+  overflow: auto;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.btn {
+  max-width: 50%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.message-channel-1{
+  text-align: left;
+  color: #F4511E;
+  margin-left: 15px;
+  margin-right: 15px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.message-channel-2{
+  text-align: right;
+  color: #00796B;
+  margin-right: 30px;
+  margin-left: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.Header {
+  height: 4.5rem;
+  text-align: center;
+  position: static;
+  background-color: #263238;
+  color: white
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-board-messages {
+  text-align: center;
 }
